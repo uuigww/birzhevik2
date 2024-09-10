@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #1B1B1B;
+    color: #AEAEAE;
+    border-top: 3px solid #555658;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: calc(100% - 30px);
+    font-weight: 400;
+    padding: 0 15px;
+    bottom: 0;
+    z-index: 10;
+}
+
+.navbarLinks > svg {
+    height: 25px;
+}

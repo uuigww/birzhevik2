@@ -1,0 +1,21 @@
+.brzhBalance {
+    background: linear-gradient(135deg, #164972 4%, #006AC0 47%, #164972 93%);
+    border-radius: 5px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    gap: 3px;
+    padding: 0px 3px;
+    width: auto;
+}
+
+.brzhBalance > span {
+    font-size: 12px;
+}
+
+.brzhBalance > p {
+    font-size: 20px;
+    font-weight: 600;
+}

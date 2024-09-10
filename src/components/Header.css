@@ -1,0 +1,29 @@
+.header {
+    background-color: #1B1B1B;
+    color: #AEAEAE;
+    border-bottom: 3px solid #555658;
+    top: 0;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    width: calc(100% - 30px);
+    font-weight: 400;
+    padding: 0 15px;
+    z-index: 10;
+}
+
+a.headerLinks {
+    background-color: #323232;
+    padding: 7px;
+    border-radius: 100px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 20px;
+}

@@ -1,0 +1,21 @@
+.user{
+    margin: 70px 15px 0 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #ffffff;
+    gap: 10px;
+}
+
+.user > img {
+    border-radius: 100px;
+    aspect-ratio: 1/1;
+    background-color: rgb(79, 79, 79);
+    width: 40%;
+    height: auto;
+}
+
+.user > div {
+    display: flex;
+    flex-direction: column;
+}

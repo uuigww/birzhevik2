@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+html {
+  overflow: hidden;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  height: 100vh;
+  font-family: "Roboto";
+  color-scheme: light dark;
+  color: #000000;
+  background-color: #1A1D20;
+
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+:root::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/wall.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.07;
+  z-index: -1;
+}
